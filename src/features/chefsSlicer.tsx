@@ -4,7 +4,7 @@ import { IChefsState } from "../data/interface";
 
 
 export const api = axios.create({
-  baseURL: "http://localhost:8000/api/",
+  baseURL: "https://epicure-back-w31c.onrender.com/api/",
 });
 const fetchChefs = () => {
   const response = api
